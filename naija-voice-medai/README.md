@@ -17,7 +17,7 @@ This final-year Computer Science thesis project builds a voice-first medical ass
 ### Phase 2 — Offline PWA (planned)
 - Add service-worker based caching and offline-first app shell.
 - Make the app installable on Android as a Progressive Web App.
-- Complete migration steps are documented in `naija-voice-medai/docs/phase2_pwa_plan.md`.
+- Complete migration steps are documented in `docs/phase2_pwa_plan.md`.
 
 ## Architecture Overview
 

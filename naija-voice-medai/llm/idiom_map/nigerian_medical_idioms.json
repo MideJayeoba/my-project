@@ -1,0 +1,62 @@
+[
+  {
+    "expression": "My body is doing me somehow",
+    "clinical_terminology": "General malaise / constitutional symptoms"
+  },
+  {
+    "expression": "My chest is paining me",
+    "clinical_terminology": "Chest pain (cardiac, respiratory, or musculoskeletal differential)"
+  },
+  {
+    "expression": "Urine is peppering me",
+    "clinical_terminology": "Dysuria suggestive of lower urinary tract irritation/infection"
+  },
+  {
+    "expression": "I am stooling water",
+    "clinical_terminology": "Acute watery diarrhoea"
+  },
+  {
+    "expression": "My head is turning",
+    "clinical_terminology": "Dizziness / vertigo / light-headedness"
+  },
+  {
+    "expression": "My body is hot",
+    "clinical_terminology": "Fever or subjective pyrexia"
+  },
+  {
+    "expression": "I get catarrh and cough",
+    "clinical_terminology": "Upper respiratory tract symptoms"
+  },
+  {
+    "expression": "I dey feel weak well-well",
+    "clinical_terminology": "Marked fatigue / asthenia"
+  },
+  {
+    "expression": "My belle dey run",
+    "clinical_terminology": "Loose stool / diarrhoeal illness"
+  },
+  {
+    "expression": "I no fit chop",
+    "clinical_terminology": "Loss of appetite / anorexia"
+  },
+  {
+    "expression": "My eye dey pain and I dey see blur",
+    "clinical_terminology": "Eye pain with visual disturbance"
+  },
+  {
+    "expression": "My heart dey beat fast-fast",
+    "clinical_terminology": "Palpitations / tachycardia"
+  },
+  {
+    "expression": "My throat dey scratch me",
+    "clinical_terminology": "Sore throat / pharyngeal irritation"
+  },
+  {
+    "expression": "This cough no gree comot",
+    "clinical_terminology": "Persistent cough requiring chronic cough evaluation"
+  },
+  {
+    "expression": "My leg and face dey swell",
+    "clinical_terminology": "Peripheral oedema / fluid retention"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "condition_name": "Uncomplicated Malaria",
+    "clinical_keywords": ["fever", "chills", "headache", "body pain", "rapid diagnostic test"],
+    "common_nigerian_presentation": "I am feeling hot with severe body pain and bitter taste in my mouth.",
+    "recommended_action": "Perform malaria RDT, assess hydration, give ACT if positive per national guideline, and provide return precautions.",
+    "escalation_flag": false
+  },
+  {
+    "condition_name": "Suspected Typhoid Fever",
+    "clinical_keywords": ["persistent fever", "abdominal pain", "loss of appetite", "diarrhoea", "constipation"],
+    "common_nigerian_presentation": "This fever has stayed for days and my stomach is turning me.",
+    "recommended_action": "Assess for prolonged fever causes, request appropriate diagnostics, avoid empiric over-treatment, and monitor for danger signs.",
+    "escalation_flag": true
+  },
+  {
+    "condition_name": "Hypertension",
+    "clinical_keywords": ["high blood pressure", "headache", "dizziness", "blurred vision", "blood pressure reading"],
+    "common_nigerian_presentation": "My head is heavy and I feel like my pressure is high.",
+    "recommended_action": "Check blood pressure twice, counsel on salt reduction and medication adherence, and refer urgently if severe symptoms present.",
+    "escalation_flag": true
+  },
+  {
+    "condition_name": "Gastritis or Dyspepsia",
+    "clinical_keywords": ["epigastric pain", "heartburn", "bloating", "nausea", "meal-related pain"],
+    "common_nigerian_presentation": "My chest and upper stomach are burning after I eat.",
+    "recommended_action": "Screen for alarm symptoms, advise dietary modification, consider antacid/PPI trial, and schedule follow-up review.",
+    "escalation_flag": false
+  },
+  {
+    "condition_name": "Upper Respiratory Tract Infection",
+    "clinical_keywords": ["cough", "catarrh", "sore throat", "nasal congestion", "mild fever"],
+    "common_nigerian_presentation": "I have catarrh, cough, and throat pain since yesterday.",
+    "recommended_action": "Assess breathing status, provide symptomatic care, encourage fluids, and educate on warning signs requiring reassessment.",
+    "escalation_flag": false
+  },
+  {
+    "condition_name": "Urinary Tract Infection",
+    "clinical_keywords": ["dysuria", "frequency", "urgency", "suprapubic pain", "cloudy urine"],
+    "common_nigerian_presentation": "Urine is peppering me and I keep going to toilet often.",
+    "recommended_action": "Take focused history, perform urinalysis where available, treat per protocol, and refer if fever/flank pain or pregnancy.",
+    "escalation_flag": true
+  },
+  {
+    "condition_name": "Acute Malnutrition",
+    "clinical_keywords": ["weight loss", "mid-upper arm circumference", "bilateral oedema", "poor appetite", "wasting"],
+    "common_nigerian_presentation": "The child is becoming too slim and not eating well.",
+    "recommended_action": "Screen with MUAC and oedema check, start nutrition support protocol, and refer severe acute malnutrition immediately.",
+    "escalation_flag": true
+  },
+  {
+    "condition_name": "Obstetric Warning Signs in Pregnancy",
+    "clinical_keywords": ["vaginal bleeding", "severe headache", "swelling", "reduced fetal movement", "convulsion"],
+    "common_nigerian_presentation": "I am pregnant and seeing blood with serious headache and swollen legs.",
+    "recommended_action": "Treat as emergency danger sign, stabilize per protocol, and arrange urgent referral to higher-level obstetric care.",
+    "escalation_flag": true
+  },
+  {
+    "condition_name": "Bacterial Skin Infection",
+    "clinical_keywords": ["boil", "cellulitis", "pus", "redness", "warmth", "painful swelling"],
+    "common_nigerian_presentation": "I have a painful boil with pus on my leg.",
+    "recommended_action": "Examine lesion extent, clean wound, provide indicated antibiotics, and refer if spreading infection or systemic signs.",
+    "escalation_flag": false
+  },
+  {
+    "condition_name": "Childhood Acute Diarrhoea",
+    "clinical_keywords": ["frequent loose stool", "vomiting", "dehydration", "sunken eyes", "oral rehydration"],
+    "common_nigerian_presentation": "My child is stooling water many times and becoming weak.",
+    "recommended_action": "Assess dehydration immediately, begin ORS and zinc, continue feeding, and escalate if severe dehydration or blood in stool.",
+    "escalation_flag": true
+  }
+]

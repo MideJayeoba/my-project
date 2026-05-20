@@ -1,16 +1,44 @@
-# Purpose: ignore local environments, caches, and build artifacts.
-
 # Python
 __pycache__/
 *.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
 .venv/
-.env
+venv/
 
-# Node/React
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
 frontend/node_modules/
 frontend/dist/
+naija-voice-medai/interface/frontend/web/node_modules/
+naija-voice-medai/interface/frontend/web/dist/
 
-# OS/editor
+# Model artifacts and heavy binaries
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+
+# Audio and dataset artifacts
+*.wav
+*.mp3
+*.m4a
+*.flac
+naija-voice-medai/data/raw/
+naija-voice-medai/data/processed/
+
+# Logs / OS / editors
+*.log
 .DS_Store
 .vscode/
 .idea/

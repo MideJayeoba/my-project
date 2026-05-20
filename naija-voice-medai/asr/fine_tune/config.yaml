@@ -1,0 +1,11 @@
+# Training configuration for medical-domain Nigerian ASR adaptation.
+model_checkpoint: "openai/whisper-small"
+learning_rate: 0.0001
+batch_size: 8
+epochs: 8
+warmup_steps: 400
+gradient_accumulation_steps: 2
+max_audio_seconds: 30
+eval_strategy: "epoch"
+output_dir: "../../data/processed/asr_checkpoints"
+seed: 42
