@@ -1,0 +1,16 @@
+# Purpose: ignore local environments, caches, and build artifacts.
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Node/React
+frontend/node_modules/
+frontend/dist/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

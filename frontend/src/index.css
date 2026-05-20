@@ -1,0 +1,5 @@
+/* Purpose: shared global CSS reset for the frontend app. */
+
+* {
+  box-sizing: border-box;
+}
