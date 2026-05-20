@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 
 const API_BASE = "http://127.0.0.1:8000";
 
@@ -99,11 +99,6 @@ export default function useVoicePipeline() {
     }
   }, [isRecording, startRecording, stopRecording]);
 
-  useEffect(() => {
-    // Auto-start capture on first load; user can restart via icon button.
-    toggleRecording().catch(() => setStatus("error"));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return { status, isRecording, isSpeaking, toggleRecording };
 }

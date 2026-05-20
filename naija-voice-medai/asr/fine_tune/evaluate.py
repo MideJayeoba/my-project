@@ -15,7 +15,7 @@ def main() -> None:
     TODO: load predictions from fine-tuned model and compare to baseline model.
     """
     refs = ["patient reports fever and headache"]
-    hyps = ["patient reports fever and hedache"]
+    hyps = ["patient reports fever and headache"]
     score = compute_wer(refs, hyps)
     print(f"Sample WER: {score:.3f} | reports_dir={Path('evaluation')}")
 
